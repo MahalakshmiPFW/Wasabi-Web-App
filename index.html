@@ -11,9 +11,11 @@
   <header>
     <nav class="header__nav">
       <div class="header__logo">
-        <h4>Wasabi Web</h4>
+        <h4 data-aos="fade-down">Wasabi Web</h4>
         <div class="header__logo-overlay"></div>
-        <ul class="header__menu">
+      </div>
+        
+      <ul class="header__menu">
           <li>
             <a href="#menu">Menu</a>
           </li>
@@ -30,10 +32,18 @@
             <img src="/search.svg" alt="search"/>
           </li>
         </ul>
-      </div>
+        
+        <!-- Display Menu icon on small devices -->
+        <ul class="header__menu-mobile">
+          <li>
+            <img src="/menu.svg" alt="menu" />
+          </li>
+        </ul>
     </nav>
   </header>
 
+  <!-- START: hero -->
+   
 
 
   <script src="js/script.js" type="module"></script>
