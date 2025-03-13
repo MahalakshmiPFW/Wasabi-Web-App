@@ -8,7 +8,7 @@
 @import url("sections/popular.css");
 @import url("sections/trending.css");
 @import url("sections/subscribe.css");
-@import url("sections/footer.css"); */
+@import url("sections/footer.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
@@ -103,43 +103,6 @@ a {
 .sushi__hide-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-}
-
-/*Navbar*/
-.header__menu,
-.header__menu-mobile {
-  padding: 20px;
-
-  flex: 1.235;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 64px;
-
-  list-style: none;
-}
-
-.header__menu li {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  font-family: var(--plus-jakarta-sans);
-  color: var(--secondary-color);
-  cursor: pointer;
-}
-
-.header__menu li img {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-}
-
-.header__menu-mobile {
-  display: none;
-  gap: 20px;
-
-  position: relative;
 }
 
 /* START: about us media queries */
