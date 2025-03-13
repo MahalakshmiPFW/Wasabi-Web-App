@@ -2,7 +2,7 @@
 
 A sleek and responsive sushi website showcasing popular food, trending sushi, and drinks. Built using HTML, CSS, and modern techniques for a smooth user experience. **This project is entirely frontend (no backend).**
 
-## Features
+## Features:
 
 - **CSS Variables**: Ensures consistent and adjustable styling.
 - **Modular CSS**: Organizes and imports CSS files for better maintainability.
@@ -13,7 +13,7 @@ A sleek and responsive sushi website showcasing popular food, trending sushi, an
 - **Responsive Design**: Fully responsive across all devices with media queries and fluid layouts.
 - **Organized Structure**: Clean and easy-to-navigate file and folder organization.
 
-## Sections
+## Sections:
 
 - **Navigation Bar**
 - **Hero Section**
